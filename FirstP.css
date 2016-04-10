@@ -1,0 +1,100 @@
+/* 预置样式 */
+html,div,img,p,hi,h2,h3{
+    margin:0;
+    padding:0;
+}
+div,img{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding:0;
+    margin:0;
+    border:0px;
+    /* display: inline-block;*/
+}
+
+/* 文档样式 */
+body{
+    width:100%;
+    height:640px;
+    padding:0px;
+    margin:0 auto;
+    font:1.2em/1.3em "微软雅黑",sans-serif;
+    background-color:#0a64a4;
+    text-align: center;
+    position:relative;
+}
+/* header部分 */
+header{
+    margin:0px auto;
+    color: #eeeeee;
+    background: #0880d7;
+    height:40px;
+    padding:10px;
+}
+header div{
+    border:1px #EEEEEE solid;
+    width:200px;
+    height:40px;
+    margin:0 auto;
+    padding:5px 0;
+}
+
+/* 主体部分 */
+.buttons{
+    width:230px;
+    padding:0;
+    margin:20px auto;
+
+
+}
+
+
+button{
+    width: 230px;
+    height:50px;
+    padding:0;
+    /*background: #66cccc;
+    /*border-radius: 15px ;
+
+    /*background: -webkit-linear-gradient(#00cccc, #009999); /* Safari 5.1 - 6.0 */
+    /*background: -o-linear-gradient(#00cccc, #009999); /* Opera 11.1 - 12.0 */
+    /*background: -moz-linear-gradient(#00cccc, #009999); /* Firefox 3.6 - 15 */
+    /*background: linear-gradient(#00cccc, #009999); /* 标准的语法（必须放在最后） */
+    position: relative;
+    font-family: "微软雅黑";
+    font-size:1.0em;
+    color:#eeeeee;
+}
+button img{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    padding:0;
+    position:absolute;left:50px;top:4px;
+}
+button span{
+    position:absolute;right:60px;top:10px;
+}
+
+
+
+.stop,.play{
+
+
+}
+.stop img,.play img,.rerecord img{
+    width:38px;
+    height:38px;
+}
+
+
+/* footer部分 */
+footer{
+    width:100%;
+    height:20px;
+    font-size:10px;
+    background: #03406a;
+    position: absolute;bottom:0px;
+}
+
